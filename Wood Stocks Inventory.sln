@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wood Stocks Inventory", "Wood Stocks Inventory\Wood Stocks Inventory.csproj", "{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5E6EF363-7E20-4B79-B1DE-B3A4D68A6FC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10BA3350-6F6D-45D5-8C6D-1D00BEE5BC71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoodStocksInventory.Tests", "WoodStocksInventory.Tests\WoodStocksInventory.Tests.csproj", "{B71E863E-3685-482A-B87C-C56E0694E788}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSI.Common", "WSI.Common\WSI.Common.csproj", "{DA0455C7-BA23-410F-BE04-22D7D9D33D03}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "WSI Developer Doc", "WSI Developer Doc\WSI Developer Doc.shfbproj", "{A6DFF27B-110C-4437-AB12-C2EF4A3BB9F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WSI.Common.Tests", "WSI.Common.Tests\WSI.Common.Tests.csproj", "{EE9165C3-0614-4D95-BC0D-1698334C74EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Description = Wood Stocks Inventory
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71E863E-3685-482A-B87C-C56E0694E788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71E863E-3685-482A-B87C-C56E0694E788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71E863E-3685-482A-B87C-C56E0694E788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71E863E-3685-482A-B87C-C56E0694E788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0455C7-BA23-410F-BE04-22D7D9D33D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0455C7-BA23-410F-BE04-22D7D9D33D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0455C7-BA23-410F-BE04-22D7D9D33D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0455C7-BA23-410F-BE04-22D7D9D33D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DFF27B-110C-4437-AB12-C2EF4A3BB9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DFF27B-110C-4437-AB12-C2EF4A3BB9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DFF27B-110C-4437-AB12-C2EF4A3BB9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DFF27B-110C-4437-AB12-C2EF4A3BB9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9165C3-0614-4D95-BC0D-1698334C74EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9165C3-0614-4D95-BC0D-1698334C74EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9165C3-0614-4D95-BC0D-1698334C74EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9165C3-0614-4D95-BC0D-1698334C74EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB253E45-E74B-4FA4-B519-6FDBA92AC5C2} = {5E6EF363-7E20-4B79-B1DE-B3A4D68A6FC2}
+		{B71E863E-3685-482A-B87C-C56E0694E788} = {10BA3350-6F6D-45D5-8C6D-1D00BEE5BC71}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2AD3CAC-4A78-4A28-AF8D-00DDBF79653A}
+	EndGlobalSection
+EndGlobal

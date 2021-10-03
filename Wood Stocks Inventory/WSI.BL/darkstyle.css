@@ -1,0 +1,62 @@
+StockItems {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	display: block;
+	padding: 5px;
+	width: 1000px;
+	line-height: 50px;
+}
+
+StockItem {
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 3px;
+	width: 450px;
+}
+
+ItemCode {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	display: inline-block;
+}
+
+	ItemCode::before {
+		content: box
+	}
+
+ItemDescription {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	display: inline-block;
+}
+
+	ItemDescription::before {
+		content: " - "
+	}
+
+CurrentCount {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	display: block;
+	color: red;
+	font-weight: bold;
+}
+
+	CurrentCount::before {
+		content: "In Stock: "
+	}
+
+OnOrder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	display: block;
+}
+
+	OnOrder::before {
+		content: "On Order: "
+	}
